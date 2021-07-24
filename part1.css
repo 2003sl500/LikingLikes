@@ -8,8 +8,8 @@ body {
 }
 
 .mainContent {
-  width: 100%;
-  height: 100%;
+  width: 75%;
+  height: 50%;
   /* background-color: aquamarine; */
   margin-left: 12%;
 }
@@ -18,9 +18,7 @@ body {
   max-width: 550px;
   min-width: 350px;
   width: 48%;
-  max-height: 200px;
-  min-height: 120px;
-  height: 19%;
+  min-height: 130px;
   margin-top: 30px;
   border: 3px solid black;
   background-color: whitesmoke;
@@ -50,7 +48,7 @@ body {
 
 #secondRow {
   margin-left: 4%;
-  margin-top: 50px;
+  margin-top: 30px;
   padding-bottom: 5px;
   font-size: 1.11rem;
   font-weight: 600;
