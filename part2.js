@@ -1,26 +1,25 @@
 console.log("Javascript is working");
 
-var countTop = 9, countMiddle = 12, countLower = 9;
+var counts = [9,12,9];
 
 function rightTopBtn() {
     console.log("rightTopBtn");
     var elementInfo = document.querySelector("#rightTopTop p span");
-    countTop++;
-    elementInfo.innerText = countTop;
+    counts[0]++;
+    elementInfo.innerText = counts[0];
 }
 
 function rightMiddleBtn() {
-    // console.log("rightMiddleBtn");
     console.log("rightMiddleBtn");
     var elementInfo = document.querySelector("#rightMiddleTop p span");
-    countMiddle++;
-    elementInfo.innerText = countMiddle;
+    counts[1]++;
+    elementInfo.innerText = counts[1];
 }
 
 function rightLowerBtn() {
     // console.log("rightLowerBtn");
     console.log("rightLowerBtn");
     var elementInfo = document.querySelector("#rightLowerTop p span");
-    countLower++;
-    elementInfo.innerText = countLower;
+    counts[2]++;
+    elementInfo.innerText = counts[2];
 }
