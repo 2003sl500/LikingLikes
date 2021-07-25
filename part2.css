@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  max-width: 530px;
+  margin: 0px auto;
+  grid-template-areas:
+    "header header header header"
+    "lowerHeader lowerHeader lowerHeader lowerHeader"
+    "leftBox rightTopBox rightTopBox rightTopBox"
+    "leftBox rightMiddleBox rightMiddleBox rightMiddleBox"
+    ". rightLowerBox rightLowerBox rightLowerBox";
+}
+
+header {
+  grid-area: header;
+  background-color: black;
+  color: whitesmoke;
+  height: 45px;
+  font-size: 0.9rem;
+  padding-top: 7px;
+  padding-left: 20px;
+}
+
+lowerHeader {
+  grid-area: lowerHeader;
+  text-align: center;
+  height: 35px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 0.92rem;
+}
+
+rightTopBox,
+rightMiddleBox,
+rightLowerBox {
+  border: 3px solid black;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  height: 120px;
+}
+
+leftBox {
+  grid-area: leftBox;
+  border: 3px solid black;
+  margin-bottom: 60px;
+}
+
+leftBox img {
+  display: block;
+  height: 60px;
+  margin: 0px auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+leftBox a {
+  margin: 18px;
+}
+
+leftBox p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 25px;
+}
+
+rightTopBox {
+  grid-area: rightTopBox;
+}
+
+#rightTopTop {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+#rightTopTop button {
+  margin-right: 20px;
+  width: 60px;
+  background-color: rgb(218, 231, 35);
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  font-size: 1.02rem;
+}
+
+#rightTopBottom {
+  margin-left: 20px;
+  margin-top: 18px;
+  font-size: 1.05rem;
+}
+
+rightMiddleBox {
+  grid-area: rightMiddleBox;
+}
+
+#rightMiddleTop {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+#rightMiddleTop button {
+  margin-right: 20px;
+  width: 60px;
+  background-color: rgb(218, 231, 35);
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  font-size: 1.02rem;
+}
+
+#rightMiddleBottom {
+  margin-left: 20px;
+  margin-top: 18px;
+  font-size: 1.05rem;
+}
+
+rightLowerBox {
+  grid-area: rightLowerBox;
+}
+
+#rightLowerTop {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+#rightLowerTop button {
+  margin-right: 20px;
+  width: 60px;
+  background-color: rgb(218, 231, 35);
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  font-size: 1.02rem;
+}
+
+#rightLowerBottom {
+  margin-left: 20px;
+  margin-top: 18px;
+  font-size: 1.05rem;
+}
+
+a {
+  color: rgb(13, 100, 158);
+}
+
+p {
+  font-weight: 800;
+}
